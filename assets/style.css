@@ -1,1 +1,197 @@
 /* Copy your CSS code from CodePen below this point */
+#favorites{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  
+  #greatText {
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  
+  #backerImage{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  
+  #faveImages {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #header{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  
+  #menu{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  .menu-class{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  
+  .wraps-class{
+  /*   width: 800px; */
+    text-align: center;
+    margin: auto;  
+  }
+  
+  .sides-class{
+    width: 800px;
+    text-align: center;
+    margin: auto;  
+  }
+  nav {
+    background-image: url("https://drive.google.com/uc?export=view&id=19U8sfNZHIcGj4aCVi__oK9yg5lIQi6Iq");
+  }
+  
+  /* Setup the class side-para that is referenced in the sides menu only */
+  .side-para {
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.35;
+  /*   margin-left: 50px; */
+    padding: 5px 5px 5px 10px;
+  }
+  /* Have fun with the colors and fonts of the headers */
+  h1 {
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+  }
+  h2 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+  }
+  #nav {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    display: flex;
+     justify-content: space-evenly;
+  }
+  h3 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  h4 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+  }
+  
+  h2 {
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+  }
+  
+  
+  #hoursTitle {
+    text-align: center;
+  }
+  
+  #location {
+    text-align: center;
+  }
+  
+  .hoursContainer {
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    background-color: #1b900e;
+  }
+  
+  .hours li {
+        text-align: center;
+    margin: auto;  
+    display: flex;
+    justify-content: space-between;
+  
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 0px;
+  }
+  
+  .hours li span {
+        text-align: center;
+    margin: auto;  
+    display: inline-block;
+    width: 92px;
+  }
+  
+  #learnMore {
+    text-align:center;
+    olor: blue;
+    font-family: 'Snell Roundhand', cursive;
+    font-size: 24px;
+    padding: 100px 100px 100px 100px;
+  }
+  
+  #socialImages {
+    text-align: center;
+    width: 300px;
+    display: flex;
+     margin: auto; 
+    justify-content: space-between;
+  }
+  
+  .socialContainer {
+    margin: auto;
+    padding: 50px 0px 50px 0px;
+    background-color: red;
+  }
+  
+  .sides-class  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 6px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  .menu-class  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 6px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  #location  {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url("https://drive.google.com/uc?export=view&id=1KVDapld513gDp4XOaLft0qfmeyxhszdV");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    padding: 6px 15px 100px;
+    background-attachment: fixed;
+  }
+  
+  /* Snagged this fadein stuff from https://www.shecodes.io/athena/7981-how-to-create-scroll-animations-on-a-website */
+  #location {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  #location.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
